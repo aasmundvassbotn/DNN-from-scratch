@@ -8,7 +8,7 @@ class DenseModel():
   def __init__(
       self,
       input_shape
-      ):
+    ):
     self.input_shape = input_shape
     self.trainable_params = 0
 
@@ -33,8 +33,8 @@ class DenseModel():
   def compile(
       self,
       learning_rate,
-      optimizer,
-      loss,
+      loss_function,
+      optimizer=None,
   ):
     pass
 
